@@ -1,0 +1,11 @@
+# VS Code
+.vscode/
+
+# Python
+.venv/
+
+# Mac
+*/.DS_Store
+
+# data
+src/resources/data/*
