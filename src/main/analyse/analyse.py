@@ -1,5 +1,8 @@
-from TransactionAnalyser import TransactionAnalyser
 import os
+import sys
+# Add the src directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+from TransactionAnalyser import TransactionAnalyser
 
 src_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 ingest_data_dir = os.path.join(src_dir, "resources/data/ingest")

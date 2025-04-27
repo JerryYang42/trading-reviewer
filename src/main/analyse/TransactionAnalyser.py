@@ -1,9 +1,5 @@
 import pandas as pd
-from enum import Enum
-
-class TransactionType(Enum):
-    Withdrawal = 'Withdrawal'
-    Deposit = 'Deposit'
+from main.domain.models import TransactionType
 
 class TransactionAnalyser:
     def __init__(self, path: str):
